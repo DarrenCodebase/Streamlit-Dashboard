@@ -25,7 +25,8 @@ This project generates a synthetic retail sales dataset (`retail_sales.csv`) and
 ## Project Structure
 
 ```
-├── Streamlit_Dashboard_Demo.ipynb                 # Full Colab notebook (data gen + deployment)
+├── Streamlit_Retail_Dashboard.ipynb               # Full Colab notebook (data gen + deployment)
+├── streamlit_app.py                               # Streamlit dashboard code: filters, KPIs, charts, and data export.
 ├── retail_sales.csv                               # Generated synthetic retail transactions dataset
 ├── streamlit_output.log                           # Log file for Streamlit app startup and runtime output.
 └── README.md                                      
