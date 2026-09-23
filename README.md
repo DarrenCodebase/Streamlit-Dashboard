@@ -4,7 +4,7 @@ An interactive Streamlit dashboard for exploring retail sales performance — bu
 
 ## Overview
 
-This project generates a synthetic retail sales dataset (`retail_sales_v2.csv`) and visualizes it through a multi-tab Streamlit dashboard, deployed from Google Colab using `ngrok`.
+This project generates a synthetic retail sales dataset (`retail_sales.csv`) and visualizes it through a multi-tab Streamlit dashboard, deployed from Google Colab using `ngrok`.
 
 **Live features:**
 - Sidebar filters for date range, region, product category, customer segment, sales channel, and order status
@@ -17,7 +17,7 @@ This project generates a synthetic retail sales dataset (`retail_sales_v2.csv`) 
 
 ## Dataset
 
-`retail_sales_v2.csv` contains 6,000 synthetic orders spanning January 2023 – December 2024, generated with:
+`retail_sales.csv` contains 6,000 synthetic orders spanning January 2023 – December 2024, generated with:
 - Seasonal demand patterns (holiday surge, back-to-school bump, weekend spikes)
 - Realistic per-category price distributions (Electronics, Apparel, Home Goods, Books, Sporting Goods, Beauty & Health)
 - Customer segments (Consumer, Corporate, Home Office), sales channels (Online, In-Store), payment methods, shipping costs, and order status (Completed, Returned, Cancelled)
@@ -25,10 +25,10 @@ This project generates a synthetic retail sales dataset (`retail_sales_v2.csv`) 
 ## Project Structure
 
 ```
-├── Group02_Learn_by_Teaching_Streamlit_Demo_Enhanced.ipynb   # Full Colab notebook (data gen + deployment)
-├── generate_data.py                                          # Standalone data generation script
-├── streamlit_app.py                                          # Standalone Streamlit app
-└── README.md
+├── Streamlit_Dashboard_Demo.ipynb                 # Full Colab notebook (data gen + deployment)
+├── retail_sales.csv                               # Generated synthetic retail transactions dataset
+├── streamlit_output.log                           # Log file for Streamlit app startup and runtime output.
+└── README.md                                      
 ```
 
 ## Getting Started
